@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 24px;
+}
+
+div {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transition: color 3s, border 3s, box-shadow 3s;
+}
+
+input {
+  margin: 0.75rem 0.5rem;
+  font-size: 3rem;
+  transform: scale(2);
+}

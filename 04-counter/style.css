@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 24px;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(white, white, white, white, gray);
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  background-color: rgb(255, 215, 35);
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  z-index: 10;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+  width: 100%;
+}
+
+#counter {
+  z-index: 3;
+  font-size: 5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.balken {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 0%;
+  background-color: rgb(255, 215, 35);
+  z-index: 1;
+}
+
+button {
+  font-size: 1rem;
+  padding: 0.33rem 1rem;
+  align-self: flex-start;
+  border: 0.1rem solid black;
+  box-shadow: 0.12rem 0.12rem white;
+}

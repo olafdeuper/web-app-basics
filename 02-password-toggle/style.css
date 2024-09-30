@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 24px;
+}
+
+div {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transition: color 3s, border 3s, box-shadow 3s;
+}
+
+button {
+  font-size: 1rem;
+  padding: 0.33rem 1rem;
+}
+
+.input {
+  font-size: 1rem;
+  padding: 0.33rem 1rem;
+}
